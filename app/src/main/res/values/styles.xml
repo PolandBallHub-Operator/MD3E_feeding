@@ -1,0 +1,48 @@
+<resources>
+    <style name="Theme.PetFeeding" parent="Theme.Material3Expressive.DynamicColors.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/google_sans_flex</item>
+        <item name="fontFamily">@font/google_sans_flex</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="bottomNavigationStyle">@style/Widget.PetFeeding.BottomNavigation</item>
+        <item name="floatingActionButtonStyle">@style/Widget.PetFeeding.Fab</item>
+        <item name="materialTimePickerTheme">@style/ThemeOverlay.PetFeeding.TimePicker</item>
+    </style>
+    <style name="Widget.PetFeeding.Toolbar" parent="Widget.Material3Expressive.Toolbar.Surface">
+        <item name="titleTextAppearance">@style/TextAppearance.PetFeeding.Toolbar</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.PetFeeding.Body</item>
+        <item name="android:fontFamily">@font/google_sans_flex</item>
+    </style>
+    <style name="Widget.PetFeeding.BottomNavigation" parent="Widget.Material3Expressive.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.PetFeeding.Label</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.PetFeeding.Label</item>
+    </style>
+    <style name="Widget.PetFeeding.Fab" parent="Widget.Material3Expressive.FloatingActionButton.Large">
+        <item name="backgroundTint">?attr/colorTertiaryContainer</item>
+        <item name="tint">?attr/colorOnTertiaryContainer</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="TextAppearance.PetFeeding.Toolbar" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/google_sans_flex</item><item name="fontFamily">@font/google_sans_flex</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.PetFeeding.Headline" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/google_sans_flex</item><item name="fontFamily">@font/google_sans_flex</item>
+    </style>
+    <style name="TextAppearance.PetFeeding.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/google_sans_flex</item><item name="fontFamily">@font/google_sans_flex</item>
+    </style>
+    <style name="TextAppearance.PetFeeding.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/google_sans_flex</item><item name="fontFamily">@font/google_sans_flex</item>
+    </style>
+    <style name="ThemeOverlay.PetFeeding.TimePicker" parent="ThemeOverlay.Material3.MaterialTimePicker">
+        <item name="materialTimePickerStyle">@style/Widget.PetFeeding.TimePicker</item>
+    </style>
+    <style name="Widget.PetFeeding.TimePicker" parent="Widget.Material3.MaterialTimePicker">
+        <item name="clockFaceBackgroundColor">?attr/colorSurfaceContainerHighest</item><item name="clockHandColor">?attr/colorPrimary</item><item name="clockNumberTextColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

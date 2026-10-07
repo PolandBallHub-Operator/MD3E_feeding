@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.PetFeeding" parent="Theme.Material3Expressive.DynamicColors.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/google_sans_flex</item>
+        <item name="fontFamily">@font/google_sans_flex</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="bottomNavigationStyle">@style/Widget.PetFeeding.BottomNavigation</item>
+        <item name="floatingActionButtonStyle">@style/Widget.PetFeeding.Fab</item>
+        <item name="materialTimePickerTheme">@style/ThemeOverlay.PetFeeding.TimePicker</item>
+    </style>
+</resources>
