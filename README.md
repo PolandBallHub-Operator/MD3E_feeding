@@ -34,7 +34,7 @@ We are actively working on improving **Feeding Times**! Planned features for upc
 
 ##  Tech Stack & Requirements
 
-- **Language / Framework**: Android (Kotlin / Jetpack Compose)
+- **Language / Framework**: Android (Kotlin / MDC-Expressive)
 - **UI Guidelines**: Material Design 3 (M3)[cite: 1, 2, 3]
 
 ##  Contributing
